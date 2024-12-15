@@ -1,0 +1,26 @@
+[33mcommit f3a0bf8e6d699b47da2ec458cc4a55fb4143d874[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: AnanyaSharma29 <sharmananya02@gmail.com>
+Date:   Sun Dec 15 16:50:00 2024 +0530
+
+    initial commit
+
+[1mdiff --git a/backend/src/main/resources/application.properties b/backend/src/main/resources/application.properties[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5943bea[m
+[1m--- /dev/null[m
+[1m+++ b/backend/src/main/resources/application.properties[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32mspring.application.name=Backend[m
+[32m+[m[32mserver.port=8080[m
+[32m+[m[32mspring.data.mongodb.uri=mongodb://localhost:27017/EmergencyAndMentalWellbeing[m
+[32m+[m[32mspring.data.mongodb.database=EmergencyAndMentalWellbeing[m
+[32m+[m[32mspring.mail.host=smtp.gmail.com[m
+[32m+[m[32mspring.mail.port=587[m
+[32m+[m[32mspring.mail.username=ananyashar2909@gmail.com[m
+[32m+[m[32mspring.mail.password=uwsaiqtqwlwavstc[m
+[32m+[m[32mspring.mail.properties.mail.smtp.auth=true[m
+[32m+[m[32mspring.mail.properties.mail.smtp.starttls.enable=true[m
+[32m+[m[32mtwilio.account.sid=ACa3a18eb675cbc2c04886f5d0122e17b9[m
+[32m+[m[32mtwilio.auth.token=e2fa9c4796dcd86ad9a884bc111a5dd5[m
+[32m+[m[32mtwilio.phone.number=+17756307047[m
+\ No newline at end of file[m
